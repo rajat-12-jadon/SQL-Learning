@@ -1,39 +1,119 @@
--- Some questions to understand Clauses
+-- =====================================================
+-- File: 01_Clauses.sql
+-- Topic: SQL Clauses
+-- Description: Demonstrates commonly used SQL clauses
+-- using the Products table.
+-- =====================================================
 
--- 1. Show the name and price of all products.
 
-SELECT name, price from products;
+-- =====================================================
+-- SELECT Clause
+-- Retrieve specific columns from the table.
+-- =====================================================
 
--- Show all the products where the category is 'Electronics'.
+-- Show the name and price of all products.
 
-SELECT * FROM products
+SELECT
+    name,
+    price
+FROM products;
+
+
+-- =====================================================
+-- WHERE Clause
+-- Filter records based on a condition.
+-- =====================================================
+
+-- Show all products that belong to the 'Electronics' category.
+
+SELECT *
+FROM products
 WHERE category = 'Electronics';
 
--- Group Products by category, and show each category once.
 
-SELECT category FROM products
+-- =====================================================
+-- GROUP BY Clause
+-- Group rows having the same values into summary rows.
+-- =====================================================
+
+-- Display each product category only once.
+
+SELECT category
+FROM products
 GROUP BY category;
 
--- SHow categories that have more than 1 product. (Use after GROUP BY)
 
-SELECT category, count(*) FROM products
+-- =====================================================
+-- HAVING Clause
+-- Filter grouped records.
+-- Used after GROUP BY.
+-- =====================================================
+
+-- Display categories having more than one product.
+
+SELECT
+    category,
+    COUNT(*) AS total_products
+FROM products
 GROUP BY category
-HAVING count(*) > 1;
+HAVING COUNT(*) > 1;
 
--- Show all products sorted by price in ascending order.
 
-SELECT * FROM products 
-ORDER BY price; -- ORDER BY price DESC; -> for descending order
+-- =====================================================
+-- ORDER BY Clause
+-- Sort records in ascending or descending order.
+-- =====================================================
 
--- Show only the first 3 products from the table
+-- Display all products sorted by price (Ascending).
 
-SELECT * FROM products
+SELECT *
+FROM products
+ORDER BY price ASC;
+
+-- Display all products sorted by price (Descending).
+
+-- SELECT *
+-- FROM products
+-- ORDER BY price DESC;
+
+
+-- =====================================================
+-- LIMIT Clause
+-- Restrict the number of rows returned.
+-- =====================================================
+
+-- Display only the first three products.
+
+SELECT *
+FROM products
 LIMIT 3;
 
--- Show product name as "Item_Name" and price as "Item_Price".
 
-SELECT name as Item_Name, price as Item_Price FROM products;
+-- =====================================================
+-- AS Keyword (Alias)
+-- Rename columns in the output.
+-- =====================================================
 
--- Show all the uniue categories from the product.
+-- Display product name as "Item_Name"
+-- and price as "Item_Price".
 
-SELECT DISTINCT category FROM products;
+SELECT
+    name AS Item_Name,
+    price AS Item_Price
+FROM products;
+
+
+-- =====================================================
+-- DISTINCT Clause
+-- Remove duplicate values from the result.
+-- =====================================================
+
+-- Display all unique product categories.
+
+SELECT DISTINCT category
+FROM products;
+
+
+-- =====================================================
+-- End of File
+-- =====================================================
