@@ -1,6 +1,6 @@
 # Day 4 - Relationships & SQL Joins 🔗
 
-On Day 4, I learned how relational databases connect tables using primary keys and foreign keys. I also explored different types of SQL joins to retrieve related data from multiple tables and solved practice queries using joins.
+On Day 4, I learned how relational databases establish relationships between tables using **Primary Keys** and **Foreign Keys**. I explored the three fundamental database relationships, practiced different types of SQL joins, imported CSV data into PostgreSQL, and solved practical queries using multiple tables.
 
 ---
 
@@ -10,8 +10,11 @@ On Day 4, I learned how relational databases connect tables using primary keys a
 
 - One-to-One Relationship
 - One-to-Many Relationship
+- Many-to-Many Relationship
 - Primary Key
 - Foreign Key
+- Composite Primary Key
+- Junction (Bridge) Table
 
 ### SQL Joins
 
@@ -22,26 +25,49 @@ On Day 4, I learned how relational databases connect tables using primary keys a
 - CROSS JOIN
 - SELF JOIN
 
+### CSV Import
+
+- Importing CSV files into PostgreSQL using pgAdmin
+- Header option while importing CSV
+- Importing Products and Orders tables
+
 ### Practice
 
-- Display student details with subject and marks.
+- Display students with their profile details.
+- Display students with subject-wise marks.
+- Display students with enrolled courses.
 - Find students without marks.
-- Calculate average marks of each student.
-- Count total subjects for each student.
-- Sort students based on average marks.
+- Find all courses taken by a particular student.
+- Count courses enrolled by each student.
+- Count students enrolled in each course.
+- Find students enrolled in more than two courses.
+- Find the course with the highest number of enrollments.
+- Join Products and Orders tables for practice.
 
 ---
 
 ## 📂 Files
 
-- **01_One_To_One_Relationship.sql**
-  - Demonstrates a one-to-one relationship between `students` and `student_profiles`.
+- **OneToOneRelationship.sql**
+  - Demonstrates a One-to-One relationship between `students` and `student_profiles`.
 
-- **02_One_To_Many_Relationship.sql**
-  - Demonstrates a one-to-many relationship between `students_1` and `marks`.
+- **oneToManyRelationship.sql**
+  - Demonstrates a One-to-Many relationship between `students_1` and `marks`.
 
-- **03_Joins.sql**
-  - Covers all major SQL joins with practical examples and practice questions.
+- **ManytoManyRelationship.sql**
+  - Demonstrates a Many-to-Many relationship using a junction table (`student_courses`).
+
+- **joins.sql**
+  - Covers all major SQL joins with practical examples and interview-oriented queries.
+
+- **Exercise_For_Practice.sql**
+  - Practice questions based on relationships and joins.
+
+- **Products_Table.csv**
+  - Sample products dataset used for join practice.
+
+- **Orders_Table.csv**
+  - Sample orders dataset used for join practice.
 
 ---
 
@@ -49,23 +75,30 @@ On Day 4, I learned how relational databases connect tables using primary keys a
 
 After completing Day 4, I can:
 
-- Design one-to-one and one-to-many relationships.
-- Create and use primary key and foreign key constraints.
-- Retrieve related data using SQL joins.
-- Understand the difference between INNER, LEFT, RIGHT, FULL OUTER, CROSS, and SELF joins.
+- Design One-to-One, One-to-Many, and Many-to-Many relationships.
+- Create Composite Primary Keys.
+- Create and use Foreign Key constraints.
+- Build Junction Tables for Many-to-Many relationships.
+- Retrieve related data using SQL Joins.
+- Understand the difference between INNER, LEFT, RIGHT, FULL OUTER, CROSS, and SELF JOIN.
 - Identify unmatched records using LEFT JOIN.
-- Perform analysis using JOIN with aggregate functions.
+- Write analytical queries using JOIN with aggregate functions.
+- Import CSV datasets into PostgreSQL using pgAdmin.
 
 ---
 
 ## 🛠️ Database Used
 
-This folder uses the tables created during Day 4:
+This folder uses the following tables:
 
-- **students**
-- **student_profiles**
-- **students_1**
-- **marks**
+- students
+- student_profiles
+- students_1
+- marks
+- courses
+- student_courses
+- products
+- orders
 
 ---
 
@@ -76,3 +109,5 @@ This folder uses the tables created during Day 4:
 - Common Table Expressions (CTEs)
 - Window Functions
 - Date Functions
+- NULL Handling
+- UNION & UNION ALL

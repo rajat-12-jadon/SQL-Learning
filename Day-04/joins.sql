@@ -1,5 +1,5 @@
 -- =====================================================
--- File: 03_Joins.sql
+-- File: 04_Joins.sql
 -- Topic: SQL Joins
 -- Description: Demonstrates different types of joins
 -- using Students and Marks tables.
