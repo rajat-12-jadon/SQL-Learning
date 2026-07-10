@@ -1,6 +1,6 @@
 # Day 5 - Advanced SQL Concepts 🚀
 
-On Day 5, I explored advanced SQL features in PostgreSQL that are commonly used in real-world database applications. I learned how to create reusable database objects, perform analytical queries using Window Functions, work with NULL values, and write Stored Procedures and User Defined Functions.
+On Day 5, I explored advanced SQL features in PostgreSQL that are commonly used in real-world database applications. I learned how to create reusable database objects, perform analytical queries using Window Functions, work with NULL values, write Stored Procedures and User Defined Functions, and solve complex queries using Subqueries.
 
 ---
 
@@ -62,6 +62,20 @@ On Day 5, I explored advanced SQL features in PostgreSQL that are commonly used 
 - Running Total
 - Running Average
 
+### Subqueries
+
+- Scalar Subquery
+- Multiple Row Subquery
+- Correlated Subquery
+- Subquery in SELECT
+- Subquery in FROM
+- Subquery in WHERE
+- Subquery in HAVING
+- EXISTS
+- NOT EXISTS
+- ANY
+- ALL
+
 ---
 
 ## 📂 Files
@@ -84,6 +98,9 @@ On Day 5, I explored advanced SQL features in PostgreSQL that are commonly used 
 - **06_Window_Functions.sql**
   - Ranking, analytical functions, running totals and window operations.
 
+- **07_Subqueries.sql**
+  - Scalar, Correlated, Nested, EXISTS, ANY, ALL and interview-oriented subqueries.
+
 ---
 
 ## 🎯 Learning Outcomes
@@ -97,7 +114,8 @@ After completing Day 5, I can:
 - Create User Defined Functions (UDFs).
 - Return values and tables from functions.
 - Perform analytical queries using Window Functions.
-- Rank records and calculate running totals without reducing rows.
+- Write Scalar, Correlated and Nested Subqueries.
+- Use EXISTS, NOT EXISTS, ANY and ALL operators effectively.
 
 ---
 

@@ -69,6 +69,7 @@ A structured repository documenting my SQL learning journey using **PostgreSQL**
 - Stored Procedures
 - User Defined Functions (UDF)
 - Window Functions
+- Subqueries
 
 ### ⏳ Upcoming Topics
 
@@ -112,15 +113,17 @@ SQL-Learning/
 │   ├── 04_Joins.sql
 │   └── 05_Exercise_For_Practice.sql
 │
-├── Day-05/
-│   ├── README.md
-│   ├── 01_Views.sql
-│   ├── 02_HAVING_Clause.sql
-│   ├── 03_COALESCE_Function.sql
-│   ├── 04_Stored_Procedures.sql
-│   ├── 05_User_Defined_Functions.sql
-│   └── 06_Window_Functions.sql
+Day-05/
 │
+├── README.md
+├── 01_Views.sql
+├── 02_HAVING_Clause.sql
+├── 03_COALESCE_Function.sql
+├── 04_Stored_Procedures.sql
+├── 05_User_Defined_Functions.sql
+├── 06_Window_Functions.sql
+├── 07_Subqueries.sql
+|
 └── LeetCode-SQL/
     ├── 001_Recyclable_And_Low_Fat_Products.sql
     ├── 002_Find_Customer_Referee.sql
