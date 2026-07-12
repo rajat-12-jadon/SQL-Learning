@@ -14,12 +14,11 @@ A structured repository documenting my SQL learning journey using **PostgreSQL**
 
 ## 📈 Repository Stats
 
-- 📅 Learning Days: **5**
-- 📂 Day Folders: **5**
-- 📄 SQL Files: **20+**
-- 💻 LeetCode SQL Problems Solved: **10**
+- 📅 Learning Days: **6**
+- 📄 SQL Files: **35+**
+- 💻 LeetCode SQL Problems Solved: **13**
 - 🗄️ Database: **PostgreSQL**
-- 🛠️ Tool: **pgAdmin 4**
+- 🛠️ IDE: **pgAdmin 4**
 
 ---
 
@@ -71,7 +70,7 @@ A structured repository documenting my SQL learning journey using **PostgreSQL**
 - Window Functions
 - Subqueries
 
-### ⏳ Upcoming Topics
+### ✅ Day 6
 
 - Common Table Expressions (CTEs)
 - Triggers
@@ -113,17 +112,21 @@ SQL-Learning/
 │   ├── 04_Joins.sql
 │   └── 05_Exercise_For_Practice.sql
 │
-Day-05/
+├── Day-05/
+│   ├── README.md
+│   ├── 01_Views.sql
+│   ├── 02_HAVING_Clause.sql
+│   ├── 03_COALESCE_Function.sql
+│   ├── 04_Stored_Procedures.sql
+│   ├── 05_User_Defined_Functions.sql
+│   ├── 06_Window_Functions.sql
+│   └── 07_Subqueries.sql
 │
-├── README.md
-├── 01_Views.sql
-├── 02_HAVING_Clause.sql
-├── 03_COALESCE_Function.sql
-├── 04_Stored_Procedures.sql
-├── 05_User_Defined_Functions.sql
-├── 06_Window_Functions.sql
-├── 07_Subqueries.sql
-|
+├── Day-06/
+│   ├── README.md
+│   ├── 01_Common_Table_Expressions.sql
+│   └── 02_Triggers.sql
+│
 └── LeetCode-SQL/
     ├── 001_Recyclable_And_Low_Fat_Products.sql
     ├── 002_Find_Customer_Referee.sql
@@ -134,7 +137,10 @@ Day-05/
     ├── 007_Number_Of_Unique_Subjects_Taught.sql
     ├── 008_Find_Followers_Count.sql
     ├── 009_Replace_Employee_ID_With_The_Unique_Identifier.sql
-    └── 010_Rising_Temperature.sql
+    ├── 010_Rising_Temperature.sql
+    ├── 011_Employee_Bonus.sql
+    ├── 012_Average_Selling_Price.sql
+    └── 013_Product_Sales_Analysis_I.sql
 ```
 
 ---
@@ -156,8 +162,9 @@ Day-05/
 - [x] Day 3 - String Functions, ALTER TABLE & CASE Statement
 - [x] Day 4 - Relationships & SQL Joins
 - [x] Day 5 - Advanced SQL Concepts
-- [x] Solved 10 LeetCode SQL Problems
-- [ ] Complete SQL Course
+- [x] Day 6 - Common Table Expressions (CTEs) & Triggers
+- [x] Solved 13 LeetCode SQL Problems
+- [x] Complete SQL Learning Roadmap
 - [ ] Solve 50+ LeetCode SQL Problems
 - [ ] Build SQL Mini Projects
 
@@ -167,8 +174,8 @@ Day-05/
 
 - PostgreSQL
 - pgAdmin 4
-- LeetCode SQL
 - PostgreSQL Documentation
+- LeetCode SQL
 - Hands-on Practice
 
 ---
