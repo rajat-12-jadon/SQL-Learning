@@ -2,7 +2,11 @@
 
 This directory contains my SQL solutions for the **LeetCode SQL 50 Study Plan**, solved using **PostgreSQL** while learning SQL fundamentals and advanced concepts.
 
-## Repository Structure
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blue)
+![LeetCode SQL](https://img.shields.io/badge/LeetCode_SQL-25%2F50-success)
+![Language](https://img.shields.io/badge/Language-SQL-orange)
+
+## 📂 Repository Structure
 
 ```text
 LeetCode-SQL/
@@ -10,15 +14,18 @@ LeetCode-SQL/
 ├── Medium/
 ├── Hard/
 └── README.md
+```
+
+---
 
 ## 📊 Progress
 
 | Difficulty | Solved |
 |------------|-------:|
-| 🟢 Easy | 19 |
-| 🟡 Medium | 4 |
+| 🟢 Easy | 20 |
+| 🟡 Medium | 5 |
 | 🔴 Hard | 0 |
-| **Total Solved** | **23 / 50** |
+| **Total Solved** | **25 / 50** |
 
 ---
 
@@ -30,6 +37,7 @@ LeetCode-SQL/
 - [x] 0584. Find Customer Referee
 - [x] 0595. Big Countries
 - [x] 0596. Classes With At Least 5 Students
+- [x] 0619. Biggest Single Number
 - [x] 0620. Not Boring Movies
 - [x] 1068. Product Sales Analysis I
 - [x] 1075. Project Employees I
@@ -50,6 +58,7 @@ LeetCode-SQL/
 
 - [x] 0176. Second Highest Salary
 - [x] 0570. Managers with at Least 5 Direct Reports
+- [x] 1045. Customers Who Bought All Products
 - [x] 1193. Monthly Transactions I
 - [x] 1934. Confirmation Rate
 
@@ -65,20 +74,24 @@ LeetCode-SQL/
 
 - SELECT
 - WHERE
-- ORDER BY
 - DISTINCT
+- ORDER BY
+- LIMIT
 - INNER JOIN
 - LEFT JOIN
 - SELF JOIN
 - CROSS JOIN
 - GROUP BY
 - HAVING
-- Aggregate Functions
-- CASE
+- Aggregate Functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`)
+- `COUNT(DISTINCT)`
+- CASE Expression
 - ROUND
 - NULL Handling
 - Date Functions
 - Subqueries
+- Correlated Queries
+- Filtering with HAVING
 
 ---
 
@@ -88,6 +101,6 @@ LeetCode-SQL/
 
 ## 🎯 Goal
 
-Complete the **LeetCode SQL 50 Study Plan** while writing clean, well-documented PostgreSQL solutions.
+Complete the **LeetCode SQL 50 Study Plan** by solving all **50 SQL problems** using PostgreSQL while writing clean, well-documented, and optimized SQL solutions.
 
-**Progress:** **23 / 50 (46%)** 🚀
+**Current Progress:** **25 / 50 (50%)** 🚀

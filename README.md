@@ -1,6 +1,6 @@
 # SQL Learning 🗄️
 
-A structured repository documenting my SQL learning journey using **PostgreSQL** and **pgAdmin 4**. This repository covers SQL fundamentals, database design, data manipulation, querying, relationships, and advanced SQL concepts through practical examples, hands-on exercises, and interview-focused SQL problems.
+A structured repository documenting my SQL learning journey using **PostgreSQL** and **pgAdmin 4**. This repository covers SQL fundamentals, database design, data manipulation, querying, relationships, advanced SQL concepts, and interview-focused LeetCode SQL problems.
 
 ---
 
@@ -15,8 +15,8 @@ A structured repository documenting my SQL learning journey using **PostgreSQL**
 ## 📈 Repository Stats
 
 - 📅 Learning Days: **6**
-- 📄 SQL Files: **35+**
-- 💻 LeetCode SQL Problems Solved: **13**
+- 📄 SQL Files: **60+**
+- 💻 LeetCode SQL Problems Solved: **25 / 50**
 - 🗄️ Database: **PostgreSQL**
 - 🛠️ IDE: **pgAdmin 4**
 
@@ -27,53 +27,64 @@ A structured repository documenting my SQL learning journey using **PostgreSQL**
 - PostgreSQL
 - pgAdmin 4
 - SQL
+- Git
+- GitHub
 
 ---
 
 ## 📚 Topics Covered
 
-### ✅ Day 1
+### ✅ Day 1 – SQL Fundamentals
 
 - Database Creation
 - CRUD Operations
 - Data Types
 - Constraints
 
-### ✅ Day 2
+### ✅ Day 2 – Querying Data
 
 - SQL Clauses
 - SQL Operators
 - Aggregate Functions
-- Practice Set
+- Practice Questions
 
-### ✅ Day 3
+### ✅ Day 3 – Data Manipulation
 
 - String Functions
 - ALTER TABLE
 - CASE Statement
 
-### ✅ Day 4
+### ✅ Day 4 – Database Relationships
 
 - One-to-One Relationship
 - One-to-Many Relationship
 - Many-to-Many Relationship
 - SQL Joins
+- Practice Exercises
 
-### ✅ Day 5
+### ✅ Day 5 – Advanced SQL
 
 - Views
 - HAVING Clause
-- HAVING with ROLLUP
+- ROLLUP
 - COALESCE()
 - Stored Procedures
 - User Defined Functions (UDF)
 - Window Functions
 - Subqueries
 
-### ✅ Day 6
+### ✅ Day 6 – Advanced Database Features
 
 - Common Table Expressions (CTEs)
 - Triggers
+
+### ✅ LeetCode SQL Practice
+
+- SQL 50 Study Plan
+- Easy Problems
+- Medium Problems
+- PostgreSQL Solutions
+- Well-documented SQL Files
 
 ---
 
@@ -85,101 +96,68 @@ SQL-Learning/
 ├── README.md
 │
 ├── Day-01/
-│   ├── README.md
-│   ├── 01_FlipkartDatabase.sql
-│   ├── 02_DataTypes.sql
-│   ├── 03_Constraints.sql
-│   └── 04_CRUD_Operations.sql
-│
 ├── Day-02/
-│   ├── README.md
-│   ├── 01_Clauses.sql
-│   ├── 02_Clauses_With_Operators.sql
-│   ├── 03_Aggregation_Functions.sql
-│   └── 04_Practice_Set.sql
-│
 ├── Day-03/
-│   ├── README.md
-│   ├── 01_String_Functions.sql
-│   ├── 02_ALTER_Table.sql
-│   └── 03_CASE_Statement.sql
-│
 ├── Day-04/
-│   ├── README.md
-│   ├── 01_One_To_One_Relationship.sql
-│   ├── 02_One_To_Many_Relationship.sql
-│   ├── 03_Many_To_Many_Relationship.sql
-│   ├── 04_Joins.sql
-│   └── 05_Exercise_For_Practice.sql
-│
 ├── Day-05/
-│   ├── README.md
-│   ├── 01_Views.sql
-│   ├── 02_HAVING_Clause.sql
-│   ├── 03_COALESCE_Function.sql
-│   ├── 04_Stored_Procedures.sql
-│   ├── 05_User_Defined_Functions.sql
-│   ├── 06_Window_Functions.sql
-│   └── 07_Subqueries.sql
-│
 ├── Day-06/
-│   ├── README.md
-│   ├── 01_Common_Table_Expressions.sql
-│   └── 02_Triggers.sql
 │
 └── LeetCode-SQL/
-    ├── 001_Recyclable_And_Low_Fat_Products.sql
-    ├── 002_Find_Customer_Referee.sql
-    ├── 003_Big_Countries.sql
-    ├── 004_Article_Views_I.sql
-    ├── 005_Invalid_Tweets.sql
-    ├── 006_Not_Boring_Movies.sql
-    ├── 007_Number_Of_Unique_Subjects_Taught.sql
-    ├── 008_Find_Followers_Count.sql
-    ├── 009_Replace_Employee_ID_With_The_Unique_Identifier.sql
-    ├── 010_Rising_Temperature.sql
-    ├── 011_Employee_Bonus.sql
-    ├── 012_Average_Selling_Price.sql
-    └── 013_Product_Sales_Analysis_I.sql
+    ├── Easy/
+    ├── Medium/
+    ├── Hard/
+    └── README.md
 ```
+
+---
+
+## 🚀 Learning Progress
+
+| Section | Status |
+|----------|:------:|
+| SQL Fundamentals | ✅ |
+| SQL Joins & Relationships | ✅ |
+| Advanced SQL | ✅ |
+| PostgreSQL | ✅ |
+| LeetCode SQL 50 | 🚀 25 / 50 |
 
 ---
 
 ## 🎯 Goals
 
-- Learn SQL from beginner to advanced level.
-- Master PostgreSQL for real-world database management.
-- Solve **50+ SQL problems** on LeetCode.
-- Build a strong SQL foundation for Data Analytics and Software Engineering interviews.
-- Create reusable SQL scripts and maintain a well-documented GitHub repository.
+- ✅ Learn SQL from Beginner to Advanced
+- ✅ Master PostgreSQL
+- 🔄 Complete the **LeetCode SQL 50 Study Plan**
+- 🔄 Solve **100+ SQL Interview Problems**
+- 🔄 Build SQL Mini Projects
+- 🔄 Strengthen SQL for Software Engineering & Data Analytics Interviews
 
 ---
 
-## 🚀 Progress
-
-- [x] Day 1 - Database Creation, CRUD Operations, Data Types & Constraints
-- [x] Day 2 - Clauses, Operators, Aggregate Functions & Practice Set
-- [x] Day 3 - String Functions, ALTER TABLE & CASE Statement
-- [x] Day 4 - Relationships & SQL Joins
-- [x] Day 5 - Advanced SQL Concepts
-- [x] Day 6 - Common Table Expressions (CTEs) & Triggers
-- [x] Solved 13 LeetCode SQL Problems
-- [x] Complete SQL Learning Roadmap
-- [ ] Solve 50+ LeetCode SQL Problems
-- [ ] Build SQL Mini Projects
-
----
-
-## 📌 Learning Resources
+## 📚 Learning Resources
 
 - PostgreSQL
-- pgAdmin 4
 - PostgreSQL Documentation
-- LeetCode SQL
+- pgAdmin 4
+- LeetCode SQL 50
+- HackerRank SQL
 - Hands-on Practice
+
+---
+
+## 🏆 Achievements
+
+- ✅ Completed a structured SQL roadmap
+- ✅ Learned PostgreSQL from fundamentals to advanced concepts
+- ✅ Solved **25 LeetCode SQL problems**
+- ✅ Solved **51 HackerRank SQL problems**
+- ⭐ Earned a **4-Star SQL Badge** on HackerRank
+- ✅ Built a well-documented SQL GitHub repository
 
 ---
 
 ## ⭐ Support
 
 If you find this repository helpful, consider giving it a ⭐.
+
+Happy Learning! 🚀
